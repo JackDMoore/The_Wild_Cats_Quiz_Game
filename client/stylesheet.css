@@ -35,7 +35,7 @@ nav {
     border-radius: 30px;
     right: 400px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    display: flex;
+    display: flex; /* display:flex allows #image-wrap to stretch across screen and margin:auto to work in child element and also (#image below)*/
 }
 
 #image { /* might need to delete or amend this section when image added*/
@@ -46,3 +46,20 @@ nav {
     border-radius: 30px;
 }
 
+#intro_and_questions {
+    /*background-color: red; */
+    height: 80px;
+    width: 100%;
+    display: flex;
+}
+
+#intro_and_questions_div {
+    margin: auto;
+}
+
+#start_and_answers {
+    background-color: red;
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
