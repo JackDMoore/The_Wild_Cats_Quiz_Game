@@ -1,3 +1,37 @@
 body {
-    
+    background-color: #0A6763;
+}
+
+/*
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #E27A0B;
+}
+*/
+
+#settings {
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 40px;
+    width: 10px;
+    background-color: #E27A0B;
+    border-radius: 10px;
+    left: 100px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#image_section {
+    height: 300px;
+}
+
+#image_wrap {
+    margin: auto;
+    background-color: #EDB115;
+    height: 100%;
+    width: 35%;
+    border-radius: 30px;
+    right: 400px;
 }
